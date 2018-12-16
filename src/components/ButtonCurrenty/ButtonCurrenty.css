@@ -1,0 +1,80 @@
+.btnOne {
+    float: left;
+    color: #2196F4;
+    font-size: 15px;
+    padding: 10px 20px;
+}
+
+.btn_margin {
+    margin: 0 auto;
+}
+
+.textButton {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.rub {
+    border-radius: 8px 0px 0px 8px;
+    border: 1px solid #DBDCDB;
+    border-right: none; 
+}
+
+.usd {
+    border-radius: 0px;
+    border: 1px solid #DBDCDB;
+    border-right: none;
+}
+
+.eur {
+    border-radius: 0px 8px 8px 0px;
+    border: 1px solid #DBDCDB; 
+}
+
+/* HOVER ========================== */
+
+.rub:hover {
+    background: rgb(33, 150, 244, 0.1);
+    border: 1px solid #2196F4;
+}
+
+.usd:hover + .eur {
+    border-left: none;
+}
+
+.rub:hover + .usd {
+    border-left: none;
+}
+
+.usd:hover {
+    background: rgb(33, 150, 244, 0.1);
+    border: 1px solid #2196F4;
+}
+
+.eur:hover {
+    background: rgb(33, 150, 244, 0.1);
+    border: 1px solid #2196F4;
+}
+
+
+/* CLICK ========================== */
+
+.click {
+    background: #2196F4;
+    color: white;
+    border: 1px solid #2196F4;
+}
+
+.rub.click ~ .usd {
+    border-left: none;
+}
+
+.usd.click ~ .eur {
+    border-left: none;
+}
+
+.click:hover {
+    background: #2196F4;
+}

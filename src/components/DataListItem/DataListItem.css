@@ -1,0 +1,91 @@
+li {
+    list-style-type: none;
+    margin-bottom: 20px;
+    padding: 0px;
+}
+
+li .btn_buy {
+    text-align: center;
+    background: #FF6D00;
+    color: white;
+    padding: 5px 60px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+li .btn_buy:hover {
+    background: #FF8223;
+    cursor: pointer;
+}
+
+.bg_1 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.btn_mr {
+    padding-top: 20px;
+    padding-bottom: 5px;
+    margin-bottom: -20px;
+}
+
+.border_item {
+    position: relative;
+    border-right: 1px solid #DBDCDB;
+    padding-top: -20px;
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn_center {
+    margin: 0 auto;
+}
+
+/*================== 2 BLOCK TIME ==============================*/
+
+.bg2 {
+    text-align: center;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+.time {
+    font-size: 40px;
+}
+
+.airlanes {
+    margin-top: 13px;
+    color: #A8A8A8;
+    font-weight: 500;
+}
+
+.img_air {
+    margin-top: -15px;
+    margin-left: -20px;
+}
+
+/* ============= BLOCK 3 INFO =======================*/
+
+.block3_info {
+    margin-left: 46px;
+    font-weight: bold;
+}
+
+.block4_info {
+    text-align: right;
+    font-weight: bold;
+    margin-left: -7px;
+}
+
+.span_Date {
+    color: #A8A8A8;
+    font-weight: normal;
+}
+
+.span_Date2 {
+    display: inline-block;
+    color: #A8A8A8;
+    font-weight: normal;
+    margin-right: 5px;
+}

@@ -1,0 +1,20 @@
+.bg {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.fl {
+  float: left;
+  background: white;
+  border-radius: 5px;
+}
+
+.fr {
+  float: right;
+}
+
+body {
+  overflow-y: scroll;
+  position: relative;
+  background: #F4F7FA;
+}

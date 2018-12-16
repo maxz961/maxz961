@@ -1,0 +1,99 @@
+.radio {
+    display: none;
+}
+
+.radio_div {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #DBDCDB;
+    bottom: -5px;
+    display: inline-block;
+    margin-right: 5px;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+.radio_div_checked {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #2196F4;
+    background: rgb(33, 150, 244, 0.1);
+    bottom: -5px;
+    display: inline-block;
+    margin-right: 5px;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+.checkedHover {
+    padding-bottom: 5px;
+    width: 100%;
+    display: block;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.checkedHover:hover {
+    background: rgb(33, 150, 244, 0.2);
+}
+
+/*============================*/
+
+.checkmark {
+    display:inline-block;
+    position: relative;
+    left: -0.7px;
+    top: -1.7px;
+    margin: 0 auto;
+    text-align: center;
+    width: 19px;
+    height:19px;
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+}
+
+.checkmark_stem {
+    position: absolute;
+    width:1.5px;
+    height:7.5px;
+    background-color:#2196F4;
+    left:11px;
+    top:6px;
+}
+
+.checkmark_kick {
+    position: absolute;
+    width:3px;
+    height:1.5px;
+    background-color:#2196F4;
+    left:8px;
+    top:12px;
+}
+
+.checked_none {
+    display: none;
+}
+
+/* ================= ONLY ===================*/
+
+.only {
+    text-align: right;
+    display: none;
+    float: right;
+    position: relative;
+    top: 3px;
+    color:#2196F4;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+.only:hover {
+    color: #FEA42B;
+}
+
+.checkedHover:hover .only {
+    display: inline-block;
+}
